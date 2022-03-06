@@ -22,7 +22,6 @@
     $data = json_decode(file_get_contents("php://input"));
 
     //assign the data to category
-    $category->id = $data->id;
     $category->name = $data->name;
 
     //Create the category
